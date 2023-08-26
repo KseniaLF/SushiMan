@@ -30,6 +30,8 @@
   font-size: 120px;
   line-height: 138px;
   color: #fff;
+
+  animation: color-change 4s ease-in-out infinite;
 }
 
 .hero-content {
@@ -117,6 +119,8 @@
 
   border-radius: 50px;
   transition: all 200ms ease-in;
+
+  animation: pulse 1s ease-in-out infinite;
 }
 
 .hero-content__testimonial {
@@ -171,6 +175,10 @@
 
   color: var(--secondary-color);
   opacity: 0.8;
+}
+
+.spin {
+  animation: spin 2s ease-in-out infinite;
 }
 
 @media screen and (max-width: 1060px) {
